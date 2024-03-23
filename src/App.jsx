@@ -12,7 +12,7 @@ function App() {
 
   const [image, setImage] = useState(getRandom(arrayImages))
 
-  const objStyle = {backgroundImage: `url(../public/img/fondo${image}.png)`}
+  const objStyle = {backgroundImage: `url(../img/fondo${image}.png)`}
  
   return (
       <div className='app' style={objStyle}>
